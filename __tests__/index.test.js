@@ -319,6 +319,22 @@ describe('Form mutator module test', () => {
       expect(global.Event).toHaveBeenNthCalledWith(8, 'blur', evtInit);
     });
 
+    it('should return truthy on unknown type', () => {
+      const el = {
+        dispatchEvent: jest.fn(),
+        type: 'unknown',
+      };
+      global.document = {
+        querySelector: jest.fn(() => el),
+      };
+
+      const actual = formMutator.setValue('selector', 'value');
+      expect(actual).toBeTruthy();
+      expect(global.document.querySelector).toHaveBeenCalledTimes(1);
+      expect(global.document.querySelector).toHaveBeenNthCalledWith(1, 'selector');
+      expect(global.Event).not.toHaveBeenCalled();
+    });
+
     it('should return truthy on non-existence el', () => {
       global.document = null;
 
