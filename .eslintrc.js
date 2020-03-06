@@ -25,7 +25,7 @@ module.exports = {
     'jest',
   ],
   rules: {
-    'no-param-reassign': ['error', { ignorePropertyModificationsFor: ['el'], props: true }],
+    'no-param-reassign': ['error', { ignorePropertyModificationsFor: ['el', 'global'], props: true }],
     'no-underscore-dangle': [2, { allow: ['__test__'] }],
     'space-before-function-paren': ['error', 'always'],
   },
