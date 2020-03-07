@@ -1,13 +1,13 @@
-[![Version](https://img.shields.io/npm/v/form-mutator.svg)](https://bit.ly/2VTdnqu)
-[![Downloads](https://img.shields.io/npm/dt/form-mutator.svg)](https://bit.ly/2VTdnqu)
-[![Dependency Status](https://img.shields.io/david/rickypc/form-mutator.svg)](https://bit.ly/3cFYeys)
-[![Dev Dependency Status](https://img.shields.io/david/dev/rickypc/form-mutator.svg)](https://bit.ly/333PdLl)
-[![Code Style](https://img.shields.io/badge/code%20style-Airbnb-red.svg)](https://bit.ly/2JYN1gk)
-[![Build](https://img.shields.io/travis/rickypc/form-mutator.svg)](https://bit.ly/3cG11rq)
-[![Coverage](https://img.shields.io/codecov/c/github/rickypc/form-mutator.svg)](https://bit.ly/39wHtUG)
-[![Vulnerability](https://img.shields.io/snyk/vulnerabilities/github/rickypc/form-mutator.svg)](https://bit.ly/2PWiKRP)
+[![Version](https://img.shields.io/npm/v/form-mutator)](https://bit.ly/2VTdnqu)
+[![Downloads](https://img.shields.io/npm/dt/form-mutator)](https://bit.ly/2VTdnqu)
+[![Dependency Status](https://img.shields.io/david/rickypc/form-mutator)](https://bit.ly/3cFYeys)
+[![Dev Dependency Status](https://img.shields.io/david/dev/rickypc/form-mutator)](https://bit.ly/333PdLl)
+[![Code Style](https://img.shields.io/badge/code%20style-Airbnb-red)](https://bit.ly/2JYN1gk)
+[![Build](https://img.shields.io/travis/rickypc/form-mutator)](https://bit.ly/3cG11rq)
+[![Coverage](https://img.shields.io/codecov/c/github/rickypc/form-mutator)](https://bit.ly/39wHtUG)
+[![Vulnerability](https://img.shields.io/snyk/vulnerabilities/github/rickypc/form-mutator)](https://bit.ly/2PWiKRP)
 [![Dependabot](https://api.dependabot.com/badges/status?host=github&repo=rickypc/form-mutator)](https://bit.ly/2KIM5vs)
-[![License](https://img.shields.io/npm/l/form-mutator.svg)](https://mzl.la/2vLmCye)
+[![License](https://img.shields.io/npm/l/form-mutator)](https://mzl.la/2vLmCye)
 
 Form Mutator
 ============
