@@ -1,5 +1,8 @@
 {
-  "author": "Richard Huang <rickypc@users.noreply.github.com>",
+  "author": {
+    "email": "rickypc@users.noreply.github.co",
+    "name": "Richard Huang"
+  },
   "dependencies": {},
   "description": "A utility to fill out web form and mutate field data programmatically.",
   "devDependencies": {
@@ -8,7 +11,8 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jest": "^23.8.2",
     "jest": "^25.1.0",
-    "jsdoc-to-markdown": "^5.0.3"
+    "jsdoc-to-markdown": "^5.0.3",
+    "uglify-es": "^3.3.9"
   },
   "homepage": "https://github.com/rickypc/form-mutator#readme",
   "jest": {
@@ -44,7 +48,8 @@
   "scripts": {
     "docs": "jsdoc2md -t .readme.hbs index.js > README.md",
     "lint": "eslint __tests__/** index.js; exit 0",
-    "test": "jest"
+    "test": "jest",
+    "uglify": "echo \"/*! $npm_package_name v$npm_package_version | (c) $npm_package_author_name <$npm_package_author_email> | $npm_package_license */\n$(uglifyjs -cm -- index.js)\" > $npm_package_name.min.js"
   },
   "version": "4.0.0"
 }
