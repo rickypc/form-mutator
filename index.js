@@ -258,4 +258,4 @@
    * const response = formMutator.typeValue(el, 'value');
    */
   exports.typeValue = typeValue;
-})(/* istanbul ignore next */typeof window == 'undefined' ? global || this : window);
+})(/* istanbul ignore next */typeof window === 'undefined' ? global || this : window);
