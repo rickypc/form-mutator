@@ -9,6 +9,7 @@ CONTRIBUTING.md
 .editorconfig
 .eslintrc.js
 .readme.hbs
+*.tgz
 .travis.yml
 coverage
 form-mutator.min.js
