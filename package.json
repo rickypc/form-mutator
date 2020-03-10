@@ -12,7 +12,7 @@
     "eslint-plugin-jest": "^23.8.2",
     "jest": "^25.1.0",
     "jsdoc-to-markdown": "^5.0.3",
-    "uglify-es": "^3.3.9"
+    "terser": "^4.6.6"
   },
   "homepage": "https://github.com/rickypc/form-mutator#readme",
   "jest": {
@@ -48,8 +48,8 @@
   "scripts": {
     "docs": "jsdoc2md -t .readme.hbs index.js > README.md",
     "lint": "eslint __tests__/** index.js; exit 0",
-    "test": "jest",
-    "uglify": "echo \"/*! $npm_package_name v$npm_package_version | (c) $npm_package_author_name <$npm_package_author_email> | $npm_package_license */\n$(uglifyjs -cm -- index.js)\" > $npm_package_name.min.js"
+    "terser": "echo \"/*! $npm_package_name v$npm_package_version | (c) $npm_package_author_name <$npm_package_author_email> | $npm_package_license */\n$(terser -cm -- index.js)\" > $npm_package_name.min.js",
+    "test": "jest"
   },
-  "version": "4.0.3"
+  "version": "4.0.4"
 }

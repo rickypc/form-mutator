@@ -1,3 +1,7 @@
+### 4.0.4 (2020.03.09)
+
+* Use terser instead
+
 ### 4.0.3 (2020.03.07)
 
 * Adjust license link
