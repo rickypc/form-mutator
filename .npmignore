@@ -13,4 +13,5 @@ CONTRIBUTING.md
 .travis.yml
 coverage
 form-mutator.min.js
+Makefile
 __tests__
