@@ -1,3 +1,7 @@
+### 4.0.5 (2020.07.12)
+
+* Update dependencies
+
 ### 4.0.4 (2020.03.09)
 
 * Use terser instead
