@@ -51,5 +51,5 @@
     "terser": "echo \"/*! $npm_package_name v$npm_package_version | (c) $npm_package_author_name <$npm_package_author_email> | $npm_package_license */\n$(terser -cm -- index.js)\" > $npm_package_name.min.js",
     "test": "jest"
   },
-  "version": "4.0.5"
+  "version": "4.0.6"
 }
