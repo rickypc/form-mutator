@@ -1,3 +1,7 @@
+### 4.0.7 (2021.02.21)
+
+* Update dependencies
+
 ### 4.0.6 (2020.07.12)
 
 * Ignore Makefile
