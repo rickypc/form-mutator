@@ -3,16 +3,15 @@
     "email": "rickypc@users.noreply.github.co",
     "name": "Richard Huang"
   },
-  "dependencies": {},
   "description": "A utility to fill out web form and mutate field data programmatically.",
   "devDependencies": {
-    "eslint": "^7.4.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^23.18.0",
-    "jest": "^26.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.5",
+    "jest": "^26.6.3",
     "jsdoc-to-markdown": "^6.0.1",
-    "terser": "^4.6.6"
+    "terser": "^5.6.0"
   },
   "homepage": "https://github.com/rickypc/form-mutator#readme",
   "jest": {
@@ -51,5 +50,5 @@
     "terser": "echo \"/*! $npm_package_name v$npm_package_version | (c) $npm_package_author_name <$npm_package_author_email> | $npm_package_license */\n$(terser -cm -- index.js)\" > $npm_package_name.min.js",
     "test": "jest"
   },
-  "version": "4.0.6"
+  "version": "4.0.7"
 }
